@@ -1,6 +1,6 @@
 {
     "name": "@omer-tal/react-hook-use-async",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Custom React hook for any asynchronous usages, including interacting with server side in the most efficient way.\nDisclaimer: At least React 165 is needed",
     "license": "MIT",
     "repository": "OmerTal/react-hook-use-async",

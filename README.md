@@ -5,7 +5,7 @@ A Custom React hook for any asynchronous usages, including interacting with serv
 ## Example usage
 
 ```js
-   import { useAsync } from "@omerTal/react-hook-use-async";
+   import { useAsync } from "@omer-tal/react-hook-use-async";
    import axios from 'axios';
 
    const getUsersFromServer = async (): Promise<user[]> => {

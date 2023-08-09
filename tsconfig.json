@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "jsx": "react",
+        "sourceMap": true,
+        "allowJs": false,
+        "declaration": true,
+        "moduleResolution": "Node",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "target": "es5",
+        "module": "ESNext",
+        "types": ["node"],
+        "lib": ["es6", "DOM", "ES2016", "ES2017"]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": ["node_modules", "dist", "example", "rollup.config.js"]
+}

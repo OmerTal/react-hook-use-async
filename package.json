@@ -1,0 +1,50 @@
+{
+    "name": "@omerTal/react-hook-use-async",
+    "version": "1.0.0",
+    "description": "A Custom React hook for any asynchronous usages, including interacting with server side in the most efficient way.\nDisclaimer: At least React 165 is needed",
+    "license": "MIT",
+    "repository": "OmerTal/react-hook-use-async",
+    "author": {
+        "name": "Omer Tal",
+        "email": "omertal100@gmail.com"
+    },
+    "main": "dist/index.js",
+    "engines": {
+        "node": ">=8",
+        "npm": ">=5"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "start": "rollup -c -w"
+    },
+    "peerDependencies": {
+        "react": ">=17",
+        "react-dom": ">=17"
+    },
+    "dependencies": {
+        "prop-types": "^15.7.2"
+    },
+    "devDependencies": {
+        "@types/react": ">=17",
+        "@types/react-dom": ">=17",
+        "babel-core": "^6.26.3",
+        "babel-runtime": "^6.26.0",
+        "eslint-plugin-react-hooks": "^4.0.8",
+        "rollup": "^1.32.1",
+        "rollup-plugin-sass": "^1.12.20",
+        "rollup-plugin-typescript2": "^0.35.0",
+        "rollup-plugin-uglify": "^6.0.4",
+        "typescript": ">=3.8.3"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "react",
+        "react hooks",
+        "typescript",
+        "npm",
+        "async",
+        "axios"
+    ]
+}
